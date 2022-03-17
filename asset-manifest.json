@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/dnfl_mbtitest/static/js/main.1e6f0937.js",
+    "main.js": "/dnfl_mbtitest/static/js/main.273f5bed.js",
     "index.html": "/dnfl_mbtitest/index.html",
-    "main.1e6f0937.js.map": "/dnfl_mbtitest/static/js/main.1e6f0937.js.map"
+    "main.273f5bed.js.map": "/dnfl_mbtitest/static/js/main.273f5bed.js.map"
   },
   "entrypoints": [
-    "static/js/main.1e6f0937.js"
+    "static/js/main.273f5bed.js"
   ]
 }
