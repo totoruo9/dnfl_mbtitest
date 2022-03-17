@@ -1,4 +1,4 @@
-import { ReactEventHandler, useState } from "react";
+import { ReactEventHandler } from "react";
 import { useRecoilState } from "recoil";
 import styled from "styled-components";
 import { selectAnswerAtom } from "../atom";
@@ -32,10 +32,9 @@ interface IGetData {
 }
 
 function QandAComponent({getData}:IGetData){
-    // const [selectAnswer, setSelectAnswer] = useState("");
     const [selectAnswer, setSelectAnswer] = useRecoilState(selectAnswerAtom);
     const onAnserItemClick:ReactEventHandler<HTMLElement> = (event) => {
-        setSelectAnswer(event.currentTarget.dataset.key || "");
+        setSelectAnswer(prev => prev = event.currentTarget.dataset.key || "");
     }
 
     return(
